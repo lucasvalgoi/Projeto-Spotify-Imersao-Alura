@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -18,7 +20,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icon/logo-spotify.png" alt="spotify logo">
+                    <img src="./src/assets/icon/logo-spotify.png" alt="spotify logo">
                 </a>
             </div>
                     <ul>
@@ -67,6 +69,42 @@
             </div>
         </div>
 </div>
+
+<main>
+    <div class="main-container">
+        <nav class="header__navigation">
+            <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icon/small-left.png" alt="Seta esquerda">
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icon/small-right.png" alt="Seta direita">
+                </button>
+            </div>    
+                <div class="header__search">
+                    <img src="./src/assets/icon/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você deseja ouvir?">
+                </div>
+                
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+        </nav>
+
+        <!-- PLAYLIST -->
+        <div class="playlist-container">
+            <div id="playlist-result">
+                <div class="playlist">
+                    <h1 class="greeting">Boa Tarde</h1>
+                    <h2 class="session">Navegar por todas as seções</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
 <footer class="disclaimer-premium">
     <div class="text">
         <p class="disclaimer-premium__title">Testar o Premium de graça</p>
