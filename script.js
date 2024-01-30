@@ -1,3 +1,17 @@
+// PARTE DO GREETING //
+const greetingElement = document.getElementById("greeting");
+const currentHour = new Date().getHours();
+
+if (currentHour >= 5 && currentHour < 12) {
+    greetingElement.textContent = "Bom Dia!";
+} else if (currentHour >= 12 && currentHour < 18) {
+    greetingElement.textContent = "Boa Tarde!";
+} else {
+    greetingElement.textContent = "Boa noite!"
+}
+
+
+// PARTE DO SEARCH //
 const searchInput = document.getElementById('search-input');
 const resultArtist = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlists');
