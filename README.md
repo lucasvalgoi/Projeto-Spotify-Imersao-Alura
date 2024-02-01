@@ -26,3 +26,15 @@
   
 ## Projeto feito por:
 ### Lucas Luis Valgoi
+
+
+### atualizar o gh pages
+
+- abrir o terminal no folder deste projeto 
+(D:\Users\Documents\MeusProjetos\Projeto-Spotify-Imersao-Alura>)
+
+- se certificar que tu esta na branch main 
+(tem que subir ou descer com cd)
+
+- para atualizar, devo fazer as mudancas normalmente e rodar: 
+(git subtree push --prefix nome_da_pasta_vai_aqui origin gh-pages)
