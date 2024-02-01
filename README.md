@@ -36,5 +36,13 @@
 - se certificar que tu esta na branch main 
 (tem que subir ou descer com cd)
 
+- ver quais arquivos com mudanças pelo comando: git status
+
+- selecionar o(s) arquivo(s) com o comando: git add . (usa-se o ponto quando quiser commitar todos os arquivos com mudanças todos juntos)
+
+- efetuar o commit com o comando: git commit -m (pode-se colocar algum comentário descritivo entre aspas duplas)
+
+- fazer um push para empurrar o commit para o github
+
 - para atualizar, devo fazer as mudancas normalmente e rodar: 
 (git subtree push --prefix site-spotify origin gh-pages)
