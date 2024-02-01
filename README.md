@@ -37,4 +37,4 @@
 (tem que subir ou descer com cd)
 
 - para atualizar, devo fazer as mudancas normalmente e rodar: 
-(git subtree push --prefix nome_da_pasta_vai_aqui origin gh-pages)
+(git subtree push --prefix site-spotify origin gh-pages)
