@@ -46,3 +46,8 @@
 
 - para atualizar, devo fazer as mudancas normalmente e rodar: 
 (git subtree push --prefix site-spotify origin gh-pages)
+
+
+#### Nota sobre o link do site clone no GitHub Pages:
+
+O servidor da api (para fazer as pesquisas dos artistas) funciona apenas quando há um localhost rodando na máquina de quem acessa o link, pois o github pages só funciona para sites estáticos!!
